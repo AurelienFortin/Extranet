@@ -1,0 +1,14 @@
+site_name: SSP Lab
+theme:
+  name: null
+  custom_dir: 'cinder'
+nav:
+- Home: index.md
+- Actualités: actu.md
+- Animations: ani.md 
+- Expérimentations: 
+    - Nouvelles Expérimentations: expe.md
+    - Expérimentations terminées: old_exp.md
+- Explorations: explo.md
+- Ressources Utiles: ress.md
+- Equipe: equipe.md
