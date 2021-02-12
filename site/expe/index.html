@@ -76,7 +76,7 @@
                 
                 
                     <li >
-                        <a href="../actu/">Actualités</a>
+                        <a href="../actu/">Actu</a>
                     </li>
                 
                 
@@ -99,7 +99,7 @@
                         
                             
 <li >
-    <a href="../old_exp.md">Expérimentations terminées</a>
+    <a href="../old_exp/">Expérimentations terminées</a>
 </li>
 
                         
@@ -110,6 +110,12 @@
                 
                     <li >
                         <a href="../explo/">Explorations</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../methodo/">Appui méthodo</a>
                     </li>
                 
                 
@@ -139,7 +145,7 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../explo/">
+                        <a rel="next" href="../old_exp/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -168,12 +174,32 @@
 
 <h1 id="experimentations-en-cours-au-ssp-lab">Expérimentations en cours au SSP Lab</h1>
 <p>Le SSP Lab participe à des expérimentations, dont le but est de tester la possibilité d'utiliser une méthode innovante dans un processus de production. Cette page décrit les expérimentations actuellement en cours.</p>
+<hr />
 <h2 id="quel-est-le-parc-de-vehicules-roulants">Quel est le parc de véhicules roulants ?</h2>
 <p>Le Sdes a entrepris la refonte du répertoire des véhicules routiers (RSVERO). Ce projet consiste à apparier les données administratives d'immatriculation des véhicules, utilisées de longue date, à celles des contrôles techniques. L'enjeu est de  distinguer plus précisément les véhicules roulants de ceux retirés de la circulation et de connaître les distances parcourues entre deux contrôles techniques. Mais que ce se passe-t'il avant ou entre deux contrôles techniques ? L'objectif de l'expérimentation est d'essayer d’estimer au 31 décembre de chaque année, pour chaque véhicule routier, une probabilité d’existence et un nombre de kilomètres parcourus au cours des 12 mois précédents, indépendemment de la date effective du contrôle technique.</p>
+<p><u> Méthode utilisée :</u> Machine Learning 
+<br>
+<u> Date de fin d'expérimentation estimée : </u> Avril 2021
+<br>
+<u> Conditions de l'expérimentation : </u> Partenariat SSP Lab/SDES</p>
+<hr />
 <h2 id="prevoir-la-croissance-en-lisant-le-journal-extensions-et-approfondissements">Prévoir la croissance en lisant le journal (extensions et approfondissements)</h2>
-<p>L’information produite par les media présente l’avantage d’être réactive, fournie et aborde de nombreux domaines économiques. En outre les techniques récentes d’analyse textuelle (text mining) et de collecte automatisée des données en ligne (web scraping) permettent d’élaborer des indicateurs synthétisant cette richesse. Plus généralement, l’estimation en continu d’un indicateur médiatique associé à l’activité économique peut présenter un intérêt de par sa complémentarité avec les autres enquêtes de conjoncture existantes. Dans l’article « Prévoir la croissance du PIB en lisant le journal » de C. Bartoli, S. Combes et T. Renault, les archives du journal Le Monde sont utilisées afin de construire un indicateur aidant à prédire le PIB. Le but de l’expérimentation est de mettre à jour les modèles estimés dans cette étude en mobilisant des sources journalistiques complémentaires et dans un contexte conjoncturel qui s’est depuis un peu assombri. A ce titre, une analyse particulière des périodes de crise passées, notamment celle de 2008, pourrait aider à interpréter les messages issus de l’indicateur construit, en particulier pour pouvoir distinguer les ralentissements modérés des récessions brutales. Des améliorations pourront ensuite être envisagées en utilisant par exemple les méthodes les plus récentes de text mining ou en ciblant mieux les données en entrée.</p>
+<p>L’information produite par les media présente l’avantage d’être réactive, fournie et aborde de nombreux domaines économiques. En outre les techniques récentes d’analyse textuelle (text mining) et de collecte automatisée des données en ligne (web scraping) permettent d’élaborer des indicateurs synthétisant cette richesse. Plus généralement, l’estimation en continu d’un indicateur médiatique associé à l’activité économique peut présenter un intérêt de par sa complémentarité avec les autres enquêtes de conjoncture existantes. Dans l’article <a href="https://www.insee.fr/fr/statistiques/fichier/3705976/505-506_Bortoli-Combes-Renault-FR.pdf">« Prévoir la croissance du PIB en lisant le journal »</a> de C. Bartoli, S. Combes et T. Renault, les archives du journal Le Monde sont utilisées afin de construire un indicateur aidant à prédire le PIB. Le but de l’expérimentation est de mettre à jour les modèles estimés dans cette étude en mobilisant des sources journalistiques complémentaires et dans un contexte conjoncturel qui s’est depuis un peu assombri. A ce titre, une analyse particulière des périodes de crise passées, notamment celle de 2008, pourrait aider à interpréter les messages issus de l’indicateur construit, en particulier pour pouvoir distinguer les ralentissements modérés des récessions brutales. Des améliorations pourront ensuite être envisagées en utilisant par exemple les méthodes les plus récentes de text mining ou en ciblant mieux les données en entrée.</p>
+<p><u> Méthode utilisée :</u> Text Mining
+<br>
+<u> Date de fin d'expérimentation estimée : </u> Mars 2021
+<br>
+<u> Conditions de l'expérimentation : </u> Partenariat SSP Lab/Département de la Conjoncture (Insee)</p>
+<hr />
 <h2 id="utilisation-des-donnees-de-caisse-pour-evaluer-le-chiffre-daffaires">Utilisation des données de caisse pour évaluer le chiffre d'affaires</h2>
-<p>Les données de caisse donnent pour chaque code-barres (ou GTIN), chaque jour et chaque point de ventes les quantités vendues ainsi que le chiffre d’affaires et/ou le prix auquel le produit est vendu. Pour exploiter ces données, il est toutefois nécessaire de savoir quel produit se trouve derrière un code-barres. Actuellement, l’IPC se fonde sur un référentiel de codes-barres, acheté à un prestataire et qui donne une information très détaillée et structurée des caractéristiques de ces produits. Cette information est payante et ne couvre pas l’ensemble des produits. L’expérimentation vise à identifier les étapes de traitement textuel des libellés, ainsi que les méthodes de classification ou autres, permettant de coder automatiquement les libellés, sans passer par le référentiel, dans la nomenclature Coicop pour l’IPC et sur les regroupements utilisés pour Emagsa dans le cadre du projet Nosica qui vise à intégrer notamment les données de caisse dans la production des indicateurs d'activité de court-terme. Elle testera aussi leur performance sur des jeux de données tests. La division IPC ayant déjà classé les codes-barres dans la nomenclature Coicop grâce au référentiel de codes-barres, fournira des jeux de données d’apprentissage et de test pour entraîner et évaluer les performances des algorithmes et évaluer la pertinence des résultats de l’expérimentation.</p>
+<p>Les données de caisse donnent pour chaque code-barres (ou GTIN), chaque jour et chaque point de ventes les quantités vendues ainsi que le chiffre d’affaires et/ou le prix auquel le produit est vendu. Pour exploiter ces données, il est toutefois nécessaire de savoir quel produit se trouve derrière un code-barres. A cet effet, un référentiel, acheté à un prestataire extérieur, est actuellement  utilisé. Il est toutefois incomplet, et ne permet de toute façon pas de classer les données dans d'autre nomenclature que celle de l'indice des prix à la consommation.</p>
+<p>L'expérimentation en cours vise à tenter de classifier automatiquement les données de caisse dans un référentiel permettant la reconstruction de chiffres d'affaires. Pour cela, un premier échantillon d'entrainement associant description textuelle du produit, code barre, et catégorie de chiffres d'affaires est tout d'abord construit. Cet échantillon est ensuite utilisé pour parvenir à ventiler chaque produit dans une catégorie de chiffres d'affaires. A terme, l'expérimentation devrait ainsi permettre de reconstituer des séries de chiffres d'affaires avec une précision élevée, et avec une capacité d'actualisation et de fréquence optimale.</p>
+<p><u> Méthode utilisée :</u> NLP, Machine Learning
+<br>
+<u> Date de fin d'expérimentation estimée : </u> Été 2021
+<br>
+<u> Conditions de l'expérimentation : </u> Partenariat SSP Lab/Divsion (Insee)</p>
+<hr />
 <h2 id="amelioration-de-lidentification-de-letablissement-employeur-dans-les-donnees-du-recensement-de-la-population">Amélioration de l'identification de l'établissement employeur dans les données du recensement de la population</h2>
 <p>L’enjeu de l’expérimentation est d’améliorer le codage automatique de l’établissement employeur, avec l’ambition à terme de réduire la charge de recodage manuel. Il s’agit notamment de retrouver dans le répertoire Sirus l’établissement employeur à partir des informations déclarées dans les enquêtes annuelles de recensement qui peuvent comporter des  erreurs, des inversions de champs, et qui ne sont pas normalisées au sens des nomenclatures. L’expérimentation s’appuie sur les idées et les résultats du hackathon “Les champs de Sirene” (<a href="https://github.com/SSP-Lab/Hackathon-2018">github</a>) et poursuit les pistes qui y ont été développées.</p></div>
         

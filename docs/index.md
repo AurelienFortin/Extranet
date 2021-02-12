@@ -6,4 +6,5 @@ Issu des réflexions de stratégie de moyen terme d’Insee-2025 et inséré au 
 
 * `Expérimentations` - Les expérimentations sont des projets initiés par des unités métiers dans le but d'explorer la possibilité d'améliorer leur processus de production grâce à l'utilisation de méthodes ou techniques innovantes.
 * `Explorations` - Les explorations consistent en l'exploration du potentiel de nouvelles données (et notamment de donnes privées) dans le cadre de la statistique publique.
+* `Appui méthodologique` - L'appui méthodologique peut prendre différentes formes, de l'appui à une division sur des questions méthodologiques à la définition, au moyen par exemple de groupes de travail, de méthodes de référence sur un sujet donné.
 * `Animations` - Le SSP Lab a pour mission de contribuer à la diffusion des méthodes innovantes au sein du SSP. Pour cela, il organise des formations, des séminaires, ainsi que des journées de travail collectif sur des bases de données (funathon).

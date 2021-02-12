@@ -4,11 +4,12 @@ theme:
   custom_dir: 'cinder'
 nav:
 - Home: index.md
-- Actualités: actu.md
+- Actu: actu.md
 - Animations: ani.md 
 - Expérimentations: 
     - Nouvelles Expérimentations: expe.md
     - Expérimentations terminées: old_exp.md
 - Explorations: explo.md
+- Appui méthodo: methodo.md
 - Ressources Utiles: ress.md
 - Equipe: equipe.md
