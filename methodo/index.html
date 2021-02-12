@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="../img/favicon.ico">
 
     
-    <title>Ressources Utiles - SSP Lab</title>
+    <title>Appui méthodo - SSP Lab</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -114,14 +114,14 @@
                 
                 
                 
-                    <li >
-                        <a href="../methodo/">Appui méthodo</a>
+                    <li class="active">
+                        <a href="./">Appui méthodo</a>
                     </li>
                 
                 
                 
-                    <li class="active">
-                        <a href="./">Ressources Utiles</a>
+                    <li >
+                        <a href="../ress/">Ressources Utiles</a>
                     </li>
                 
                 
@@ -140,12 +140,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../methodo/">
+                        <a rel="prev" href="../explo/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../equipe/">
+                        <a rel="next" href="../ress/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -159,113 +159,25 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#liste-de-references-bibliographiques-utiles-pour-les-data-scientists">Liste de références bibliographiques utiles pour les data scientists</a></li>
-            <li class="second-level"><a href="#python">Python</a></li>
+        <li class="first-level active"><a href="#appuis-methodologiques">Appuis Méthodologiques</a></li>
+            <li class="second-level"><a href="#donnees-administratives">Données administratives</a></li>
                 
-            <li class="second-level"><a href="#apprentissage-statistique-automatique">Apprentissage statistique / automatique</a></li>
+            <li class="second-level"><a href="#reseaux-de-neurones-pour-la-statistique-publique-methodes-et-cas-dusage">Réseaux de neurones pour la statistique publique : méthodes et cas d'usage</a></li>
                 
-            <li class="second-level"><a href="#apprentissage-profond">Apprentissage profond</a></li>
-                
-            <li class="second-level"><a href="#traitement-du-langage-naturel">Traitement du langage naturel</a></li>
-                
-            <li class="second-level"><a href="#statistiques-mathematiques">Statistiques mathématiques</a></li>
-                
-            <li class="second-level"><a href="#econometrie-inference-causale">Econométrie / inférence causale</a></li>
-                
-            <li class="second-level"><a href="#conception-de-projets-machine-learning-data">Conception de projets machine learning / data</a></li>
-                
-            <li class="second-level"><a href="#references-generales">Références générales</a></li>
+            <li class="second-level"><a href="#sidepdsn-ou-la-recherche-de-lorigine-des-contaminations-au-covid19">SiDeP/DSN, où la recherche de l'origine des contaminations au Covid19</a></li>
                 
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<p>La liste ci-dessous est issue du repo de <a href="https://github.com/jlhourENSAE/EconoRandom/blob/master/reading_list.md">Jérémy</a></p>
-<h1 id="liste-de-references-bibliographiques-utiles-pour-les-data-scientists">Liste de références bibliographiques utiles pour les data scientists</h1>
-<p>Cette liste a pour vocation d'offrir des points d'entrée dans les sous-domaines en question. Elle regroupe principalement les manuels qui font référence, mais aussi des documents de recherche quand cela est approprié. </p>
-<h2 id="python">Python</h2>
-<ul>
-<li>'Automate the boring stuff with python' (2nd Edition, 2019) de Sweigart</li>
-</ul>
-<p>Livre d'introduction à python, très bien expliqué. Permet d'apprendre les bases, mais aussi des choses plus originales comme envoyer des e-mails, programmer des tâches à des heures précises, etc. <a href="https://automatetheboringstuff.com/">Accessible en ligne</a></p>
-<ul>
-<li>'Beyond the basic stuff with python' (2020) de Sweigart</li>
-</ul>
-<p>Même auteur que le précédent, mais plus avancé. Avec notamment un chapitre sur la programmation orientée objet, l'utilisation de git, les conventions d'écriture du code.</p>
-<h2 id="apprentissage-statistique-automatique">Apprentissage statistique / automatique</h2>
-<ul>
-<li>'The Elements of Statistical Learning' (2nd Edition, 2009) de Tibshirani et Hastie</li>
-</ul>
-<p>Manuel de référence pour toutes les approches de machine learning "traditionnelles". <a href="https://web.stanford.edu/~hastie/ElemStatLearn/">Accessible gratuitement en ligne</a></p>
-<ul>
-<li>'Pattern Recognition and Machine Learning' (2006) de Bishop</li>
-</ul>
-<h2 id="apprentissage-profond">Apprentissage profond</h2>
-<ul>
-<li>'Deep Learning' (2016) de Goodfellow, Bengio et Courville</li>
-</ul>
-<p>Livre de référence sur l'approche Deep Learning, couvre beaucoup de sujets classiques mais aussi des sujets avancés et l'état de la recherche. <a href="https://www.deeplearningbook.org/">Accessible gratuitement en ligne</a></p>
-<ul>
-<li>'A recipe for training neural network' (blog post, 2019) de Karpathy</li>
-</ul>
-<p>Très bon mode d'emploi pour s'assurer de ne pas faire n'importe quoi / debugger ses modèles. <a href="http://karpathy.github.io/2019/04/25/recipe/">Accessible en ligne</a></p>
-<ul>
-<li>'Neural networks, manifolds and topology' (blog post, 2014) d'Olah</li>
-</ul>
-<p>Réflexions utiles sur le fonctionnement des réseaux de neurones "en théorie". <a href="http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/">Accessible en ligne</a></p>
-<h2 id="traitement-du-langage-naturel">Traitement du langage naturel</h2>
-<ul>
-<li>'Speech and Language Processing' (3rd Edition, 2021?) de Jurasfky et Martin</li>
-</ul>
-<p>Manuel de référence sur le NLP. Couvre beaucoup de tâches importantes en analyse textuelle. <a href="https://web.stanford.edu/~jurafsky/slp3/">Version préliminaire accessible gratuitement en ligne</a></p>
-<ul>
-<li>'Stanford CS 224N : Natural Language Processing with Deep Learning' (cours)</li>
-</ul>
-<p>Ce cours couvre beaucoup de thèmes intéressants en NLP et propose des devoirs-maison à réaliser en python. <a href="http://web.stanford.edu/class/cs224n/">Cours accessible en ligne</a></p>
-<ul>
-<li>'Deep learning for NLP: best practices' (blog post, 2017) de Ruder</li>
-</ul>
-<p><a href="https://ruder.io/deep-learning-nlp-best-practices/">Accessible en ligne</a></p>
-<h2 id="statistiques-mathematiques">Statistiques mathématiques</h2>
-<ul>
-<li>'All of Statistics' (2004) de Wasserman</li>
-</ul>
-<p>Référence "standard" pour les concepts classiques de statistique.</p>
-<h2 id="econometrie-inference-causale">Econométrie / inférence causale</h2>
-<ul>
-<li>'Machine Learning Methods Economists Should Know About' (2019) d'Athey et Imbens</li>
-</ul>
-<p>Introduction à l'utilité des méthodes de ML en économétrie/économie empirique. S'adresse particulièrement aux économistes empiriques peu au courant des méthodes de ML. Mais offre également une perspective sur l'utilisation des méthodes de ML pour des tâches classiques en économétrie. <a href="https://arxiv.org/abs/1903.10075">Accessible sur ArXiv</a></p>
-<ul>
-<li>'Machine Learning for Econometrics' (2021?) de L'Hour et Gaillac</li>
-</ul>
-<p>Polycopié du cours de 3A ENSAE, développe les thèmes du papier précédent. <a href="https://sites.google.com/site/jeremylhour/courses">Polycopié accessible en ligne</a></p>
-<ul>
-<li>'Econometric Analysis of Cross-Section and Panel Data' (2010) de Wooldridge</li>
-</ul>
-<p>Référence classique pour les concepts / modèles standards en économétrie.</p>
-<ul>
-<li>'Causal Inference for Statistics, Social, and Biomedical Sciences' (2015) d'Imbens et Rubin</li>
-</ul>
-<p>Référence pour l'inférence causale.</p>
-<ul>
-<li>'A first course un experimental design' (2020) d'Owen</li>
-</ul>
-<p>Poycopié du cours correspondant à Stanford. Couvre notamment les A/B tests, les bandits, etc. <a href="https://statweb.stanford.edu/~owen/courses/363/">Notes disponibles en ligne</a></p>
-<h2 id="conception-de-projets-machine-learning-data">Conception de projets machine learning / data</h2>
-<ul>
-<li>'Building Machine Learning Powered Applications' (2020) d'Ameisen</li>
-<li>'Designing Data–Intensive Applications' (2016) de Kleppmann</li>
-</ul>
-<h2 id="references-generales">Références générales</h2>
-<ul>
-<li>'Calling Bullshit' (2020) de Bergstrom et West</li>
-<li>'The Signal and The Noise' (2012) de Silver</li>
-<li>'Superforecasting' (2015) de Gardner et Tetlock</li>
-<li>'You are not so smart' (2011) de McRaney</li>
-<li>'You are now less dumb' (2013) de McRaney</li>
-<li>'Range' (2019) d'Epstein</li>
-</ul></div>
+<h1 id="appuis-methodologiques">Appuis Méthodologiques</h1>
+<h2 id="donnees-administratives">Données administratives</h2>
+<p>L’exploitation des données administratives à des fins statistiques présente des avantages considérables. Celles-ci permettent de compléter des données d’enquête à faible coût tout en réduisant la charge de réponse des enquêtés. De plus, depuis quelques années, les sources administratives sont plus nombreuses, plus volumineuses et plus accessibles. L’Insee souhaite donc investir dans ce domaine.</p>
+<p>Plusieurs axes de travail ont été identifiés, et une équipe de projet transversale a notamment été créée. Dans ce contexte, le SSP Lab intervient plus particulièrement sur le <b><u>sujet des appariements</b></u>. Il s’agit de <b> faire un état des lieux de ce qui existe en la matière à la fois dans la littérature et au sein du SSP</b>  et d’évaluer l’apport de techniques de machine learning par rapport à des méthodes plus classiques. Si la sélection d’un outil unique pour réaliser les appariements n’est pas à l’ordre du jour étant donné la diversité des problèmes rencontrés, il s’agira de fournir un éclairage sur les bonnes pratiques et d’aiguiller le SSP vers des méthodes adaptées.</p>
+<h2 id="reseaux-de-neurones-pour-la-statistique-publique-methodes-et-cas-dusage">Réseaux de neurones pour la statistique publique : méthodes et cas d'usage</h2>
+<p>Ce projet vise à fournir à l’ensemble de la statistique publique un document méthodologique pédagogique facilitant la prise en main des méthodes de réseaux de neurones, en valorisant des travaux déjà effectués présentés comme cas d’usage. En particulier, il est prévu d’y insérer les travaux réalisés en 2020 sur le classement des parcelles cadastrales par un réseau de neurones convolutifs (Analyse des nouvelles constructions : quel apport des réseaux de neurones?)</p>
+<h2 id="sidepdsn-ou-la-recherche-de-lorigine-des-contaminations-au-covid19">SiDeP/DSN, où la recherche de l'origine des contaminations au Covid19</h2>
+<p>L’origine des contaminations au covid-19 est aujourd’hui un sujet d’intérêt national. Afin de tenter d’apporter un élément de réponse, un appariement entre la base SiDep (ensemble des cas positifs) et la DSN (ensemble des salariés du privé) est envisagé. Cet appariement permettrait de récupérer, pour l’ensemble des cas positifs ayant exercé une activité salariée récente, l’adresse de résidence du salarié, ainsi que son lieu de travail. L’idée serait ensuite de tester l’existence de clusters autour d’un lieu de travail, ou d’un lieu de résidence. L’appariement pourrait également, selon la disponibilité des données, être complété de données supplémentaires (données de l’application tous anti covid, ou de la base des cas contacts).</p></div>
         
         
     </div>
